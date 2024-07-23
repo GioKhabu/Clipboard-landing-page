@@ -423,7 +423,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-h3 {
+h1, h2, h3 {
   margin-bottom: 2rem;
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -433,13 +433,13 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  h3 {
+  h1, h2, h3 {
     font-size: 3rem;
     line-height: 1;
   }
 }
 
-h5 {
+h4 {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
   line-height: 2rem;
